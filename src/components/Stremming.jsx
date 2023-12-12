@@ -16,7 +16,7 @@ const Stremming = () => {
         <h1 className="title left-title">LIVE STREAMIN VIDEO BY HANCOK</h1>
 
         <div className="row games">
-          <div className="col-lg-4 col-sm-6 col-12">
+          <div className="col-lg-4 col-sm-12 col-12">
             <div className="game-card">
               <img className="img-fluid" src={tournament_item1} alt="" />
               <div className="overlay">
@@ -28,7 +28,7 @@ const Stremming = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-sm-6 col-12">
+          <div className="col-lg-4 col-sm-12 col-12">
             <div className="game-card">
               <img className="img-fluid" src={tournament_item2} alt="" />
               <div className="overlay">
@@ -40,7 +40,7 @@ const Stremming = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-sm-6 col-12">
+          <div className="col-lg-4 col-sm-12 col-12">
             <div className="game-card">
               <img className="img-fluid" src={tournament_item3} alt="" />
               <div className="overlay">
