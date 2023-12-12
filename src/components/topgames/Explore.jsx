@@ -20,7 +20,7 @@ const Explore = () => {
             <button>Browse All</button>
           </div>
           <div className="col-lg-6 col-12 text-center">
-            <img src={slide_img} alt="" />
+            <img className="img-fluid" src={slide_img} alt="" />
           </div>
         </div>
       </div>
