@@ -1,0 +1,1064 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&display=swap");
+.button {
+  width: 128px;
+  height: 50px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.button-white {
+  background-color: white;
+  color: #121212;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.button-black {
+  background-color: #212121;
+  color: white;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.icon {
+  margin-left: 5px;
+}
+
+.title {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.66px;
+  width: 518px;
+}
+
+.left-title {
+  margin-right: auto;
+  text-align: left;
+  position: relative;
+}
+
+.right-title {
+  width: 558px;
+  margin-left: auto;
+  text-align: right;
+  position: relative;
+}
+
+.left-title::after {
+  content: "";
+  position: absolute;
+  top: 100px;
+  right: 180px;
+  width: 120px;
+  height: 3px;
+  background-color: #ff4655;
+}
+
+.right-title::after {
+  content: "";
+  position: absolute;
+  top: 100px;
+  right: 138px;
+  width: 120px;
+  height: 3px;
+  background-color: #ff4655;
+}
+
+/* navbar start */
+nav {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.nav-link {
+  color: #ddd !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 30px;
+}
+
+nav .nav-right {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav .nav-right span {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* navbar end */
+
+/* banner start */
+#banner {
+  background: url(./assets/bannerBG.png);
+  /* height: 500px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#banner .text-area {
+  padding-top: 337px;
+  padding-bottom: 301px;
+}
+#banner h4 {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+#banner h1 {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  width: 496px;
+}
+
+#banner h1::after {
+  content: "";
+  position: absolute;
+  top: 63px;
+  right: -100px;
+  width: 90px;
+  height: 4px;
+  background-color: white;
+}
+#banner p {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 523px;
+  margin-top: 5px;
+  margin-bottom: 48px;
+}
+
+#banner .links {
+  padding-bottom: 103px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#banner .links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: black;
+  height: 35px;
+  width: 35px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}
+
+/* banner end */
+
+/* about start */
+#about {
+  padding-top: 34px;
+  padding-bottom: 60px;
+}
+
+#about h2 {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.81px;
+}
+
+#about ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#about ul li {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+#about ul li .list-icon {
+  margin-right: 10px;
+  color: #ff4655;
+}
+
+#about p {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#about .row-1 {
+  margin-top: 57px;
+}
+#about .row-2 {
+  margin-top: 50px;
+}
+
+#about .aboutcard {
+  background-color: #212121;
+  padding: 26px 90px;
+  border-radius: 0 50px 0 50px;
+}
+
+#about .aboutcard h1 {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-align: center;
+  position: relative;
+}
+
+#about .aboutcard h1::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #ff4655;
+  border-radius: 50%;
+}
+
+#about .aboutcard p {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  text-align: center;
+}
+/* about end */
+
+/* popular games start */
+#popular-games {
+  padding-top: 115px;
+  padding-bottom: 90px;
+  background-color: #212529;
+}
+#popular-games .mySwiper {
+  position: relative;
+}
+
+#popular-games .swiper-button-prev {
+  position: absolute !important;
+  top: 344px !important;
+  left: 1240px !important;
+  color: white !important;
+  width: 50px !important;
+  height: 50px !important;
+  border: 2px solid white;
+  border-radius: 50%;
+  opacity: 1 !important;
+}
+
+#popular-games .swiper-button-prev::after {
+  font-size: 20px !important;
+  color: white;
+}
+
+#popular-games .swiper-button-next {
+  position: absolute !important;
+  top: 280px !important;
+  left: 1240px !important;
+  color: white !important;
+  width: 50px !important;
+  height: 50px !important;
+  border: 2px solid white;
+  border-radius: 50%;
+  opacity: 1 !important;
+}
+
+#popular-games .swiper-button-next::after {
+  font-size: 20px !important;
+  color: white;
+}
+/* popular games end */
+
+/* stremming start */
+#stremming {
+  padding: 90px 0;
+}
+#stremming .left-title::after {
+  right: 240px;
+}
+#stremming .games {
+  margin-top: 78px;
+}
+
+#stremming .games .game-card {
+  position: relative;
+  transition: 0.4s;
+}
+
+#stremming .games .game-card img {
+  filter: grayscale(1);
+}
+
+#stremming .games .game-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+}
+
+#stremming .games .game-card .overlay h2 {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 196px;
+  padding-left: 25px;
+}
+
+#stremming .games .game-card .overlay h4 {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  padding-left: 25px;
+}
+
+#stremming .games .game-card .overlay img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#stremming .games .game-card .overlay span {
+  position: absolute;
+  right: 10px;
+  bottom: 9px;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#stremming .games .game-card .overlay span::after {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 4px;
+  top: 15px;
+  left: -12px;
+  background-color: #ff4655;
+  border-radius: 50%;
+}
+
+#stremming .games .game-card:hover {
+  transform: scale(1.05);
+}
+
+#stremming .games .game-card:hover img {
+  filter: none;
+}
+
+.headtohed h4 {
+  text-align: center;
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.25px;
+  margin-top: 60px;
+}
+.headtohed .left-game,
+.headtohed .right-game {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #212121;
+}
+
+.headtohed .left-game {
+  clip-path: polygon(0 0, 100% 0, 81% 100%, 0 100%);
+}
+.headtohed .right-game {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 18% 100%);
+}
+
+.headtohed .left-game h5 {
+  padding-right: 62px;
+}
+.headtohed .right-game h5 {
+  padding-left: 62px;
+}
+
+.headtohed .left-game h5,
+.headtohed .right-game h5 {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+
+.headtohed .score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 6px;
+}
+
+.scoreline {
+  margin-top: 50px;
+}
+
+/* stremming end */
+
+/* top games start */
+#topgames {
+  padding: 90px 0;
+}
+
+#topgames .game-poster {
+  margin-top: 47px;
+}
+#topgames .right-title::after {
+  right: 100px;
+}
+
+#topgames .poster h2 {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.54px;
+  margin-top: 18px;
+}
+
+#topgames .poster p {
+  color: #666;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  margin: 20px 0;
+}
+
+#topgames .price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#topgames .price del {
+  color: #666;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+
+.poster span {
+  color: #fff;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.poster .discount {
+  color: #fff;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  padding: 5px;
+  background-color: #ff4655;
+}
+
+.explore h4 {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.add {
+  padding: 45px 44px;
+  background-color: #212121;
+}
+
+.add h5 {
+  color: #ff4655;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+
+.add h1 {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 15px 0;
+  text-transform: uppercase;
+}
+.add p {
+  color: #666;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 16px;
+  margin-bottom: 25px;
+}
+
+.add button {
+  width: 128px;
+  height: 50px;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: #121212;
+  border: none;
+  outline: none;
+}
+/* top games end */
+
+/* assesories start */
+#assesories {
+  position: relative;
+  padding: 90px 0;
+}
+
+#assesories .swiper {
+  margin-top: 102px;
+}
+#assesories .assesories-card {
+  background-color: #212121;
+  width: 315px;
+  /* height: 465px; */
+  text-align: center;
+}
+
+#assesories .assesories-card img {
+  width: 250px;
+  height: 250px;
+}
+
+#assesories .assesories-card h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  margin-top: 22px;
+}
+#assesories .assesories-card h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#assesories .assesories-card a {
+  color: #ff4655;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  padding-bottom: 24px;
+}
+
+#assesories .swiper {
+  position: static;
+}
+
+#assesories .swiper-button-prev {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 530px;
+  left: 279px;
+  background: #ff4655;
+  opacity: 1;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+#assesories .swiper-button-prev::after {
+  font-size: 20px;
+}
+#assesories .swiper-button-next {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 530px;
+  right: 286px;
+  background: #ff4655;
+  opacity: 1;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+#assesories .swiper-button-next::after {
+  font-size: 20px;
+}
+/* assesories end */
+
+/* team start */
+#teams {
+  padding-top: 100px;
+  padding-bottom: 74px;
+  background-color: #191919;
+}
+
+#teams .team-section {
+  margin-top: 50px;
+}
+
+#teams .team-card {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+#teams .team-card .overlay {
+  position: absolute;
+  left: 0;
+  bottom: -100px;
+  width: 100%;
+  padding: 40px 30px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  background: rgba(37, 36, 36, 0.38);
+  transition: 0.4s;
+}
+
+#teams .team-card img {
+  filter: grayscale(100%);
+}
+
+#teams .team-card .overlay h2 {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+#teams .team-card .overlay p {
+  width: 300px;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  visibility: hidden;
+  opacity: 0;
+}
+#teams .team-card .overlay .action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  visibility: hidden;
+  opacity: 0;
+}
+#teams .team-card .overlay .action button {
+  height: 33px;
+  width: 105px;
+  background-color: #ff4655;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  outline: none;
+}
+#teams .team-card .overlay .action .link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#teams .team-card .overlay .action .link a {
+  font-size: 20px;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  background-color: #ff4655;
+}
+
+#teams .team-card:hover img {
+  filter: none;
+}
+
+#teams .team-card:hover .overlay {
+  bottom: 0;
+}
+
+#teams .team-card:hover .overlay p {
+  visibility: visible;
+  opacity: 1;
+}
+
+#teams .team-card:hover .overlay .action {
+  visibility: visible;
+  opacity: 1;
+}
+/* team end */
+
+/* faq start */
+#faq {
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+#faq .left-title {
+  width: 699px !important;
+}
+
+.all-faq {
+  margin-top: 92px;
+}
+.all-faq .faq-card {
+  display: flex;
+  gap: 42px;
+  height: 180px;
+}
+
+.all-faq .faq-card .number {
+  width: 120px;
+  height: 70px;
+  background-color: #ff4655;
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 3.8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+
+.all-faq .faq-card h2 {
+  color: white;
+  font-family: Barlow Condensed;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.all-faq .faq-card h2:hover {
+  color: #ff4655;
+}
+
+.all-faq .faq-card p {
+  color: #666;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.all-faq .b-right {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+.all-faq .b-left {
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+}
+.all-faq .b-right-t {
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+}
+.all-faq .b-left-t {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.faq-card:nth-child(2) .number {
+  margin-left: 121px;
+}
+
+.space-left {
+  margin-left: 50px;
+}
+
+.space-top {
+  align-items: flex-end;
+}
+/* faq end */
+
+/* footer start */
+footer {
+  background-color: #191919;
+}
+footer .subs {
+  transform: translateY(-50%);
+  padding: 35px 30px;
+  background-color: #ff4655;
+}
+
+footer .subs h1 {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  width: 725px;
+}
+
+footer form {
+  position: relative;
+  width: 100%;
+}
+
+footer form input {
+  width: 409px;
+  height: 40px;
+  border-radius: 30px;
+  border: 0;
+  outline: 0;
+  padding: 10px 20px;
+}
+
+footer form input::placeholder {
+  color: #666;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+footer form button {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 117px;
+  height: 40px;
+  border-radius: 30px;
+  background: #191919;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+footer .bottom-part {
+  /* margin-top: 30px; */
+  padding-bottom: 90px;
+}
+
+footer .bottom-part .logo {
+  margin-bottom: 30px;
+}
+
+footer .bottom-part p {
+  color: #666;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 451px;
+  margin-bottom: 60px;
+}
+footer .bottom-part .links {
+  display: flex;
+  gap: 10px;
+}
+footer .bottom-part .links a {
+  width: 50px;
+  height: 50px;
+  background-color: #212529;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+}
+
+footer .bottom-part .links a:hover {
+  background-color: #ff4655;
+}
+
+footer .bottom-part h4 {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.75px;
+  margin-bottom: 30px;
+}
+
+footer .bottom-part ul {
+  list-style-type: none;
+  padding: 0;
+}
+footer .bottom-part ul li {
+  margin-bottom: 30px;
+}
+footer .bottom-part ul li a {
+  color: #666;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+footer .bottom-part ul li a:hover {
+  color: #ff4655;
+}
+
+footer .footerimg {
+  margin-bottom: 5px;
+}
+
+footer hr {
+  margin: 0;
+  color: #666666;
+}
+
+footer .copy {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding: 25px 0;
+  margin: 0;
+}
+footer .copy span {
+  color: #ff4655;
+}
+/* footer end */
